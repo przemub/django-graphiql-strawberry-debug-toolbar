@@ -3,20 +3,20 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "django-graphiql-debug-toolbar"
+name = "django-strawberry-graphiql-debug-toolbar"
 version = "0.2.0"
-description = "Django Debug Toolbar for GraphiQL IDE."
+description = "Django Debug Toolbar for GraphiQL IDE in Strawberry."
 license = "MIT"
-authors = ["mongkok <dani@domake.io>"]
+authors = ["mongkok <dani@domake.io>", "Przemysław Buczkowski <prem@prem.moe>"]
 readme = "README.md"
 include = ["LICENSE", "README.md"]
-keywords = ["django", "graphql", "graphiql", "debug"]
+keywords = ["django", "graphql", "graphiql", "debug", "strawberry"]
 
-homepage = "https://github.com/flavors/django-graphiql-debug-toolbar"
-repository = "https://github.com/flavors/django-graphiql-debug-toolbar"
+homepage = "https://github.com/przemub/django-graphiql-strawberry-debug-toolbar"
+repository = "https://github.com/przemub/django-graphiql-strawberry-debug-toolbar"
 
 packages = [
-    { include = "graphiql_debug_toolbar" },
+    { include = "graphiql_strawberry_debug_toolbar" },
 ]
 
 classifiers = [
@@ -29,7 +29,6 @@ classifiers = [
     "Intended Audience :: Developers",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
@@ -49,10 +48,10 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = ">=3.7,<4.0"
 
 Django = ">=2.2"
-graphene-django = ">=2.0.0"
+strawberry-graphql = ">=0.15.1"
 django-debug-toolbar = ">=3.1"
 
 [tool.poetry.dev-dependencies]
@@ -80,5 +79,5 @@ profile = "black"
 skip = "migrations"
 default_section = "THIRDPARTY"
 known_django = "django"
-known_first_party = "graphiql_debug_toolbar"
+known_first_party = "graphiql_strawberry_debug_toolbar"
 sections = "FUTURE,STDLIB,DJANGO,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"

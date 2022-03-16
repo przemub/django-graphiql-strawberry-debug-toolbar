@@ -7,7 +7,7 @@ from django.utils.encoding import force_str
 from debug_toolbar.middleware import _HTML_TYPES
 from debug_toolbar.middleware import DebugToolbarMiddleware as BaseMiddleware
 from debug_toolbar.toolbar import DebugToolbar
-from graphene_django.views import GraphQLView
+from strawberry.django.views import GraphQLView
 
 from .serializers import CallableJSONEncoder
 
@@ -75,7 +75,7 @@ class DebugToolbarMiddleware(BaseMiddleware):
         is_graphiql = getattr(request, "_graphiql", False)
 
         if is_html and is_graphiql and response.status_code == 200:
-            template = render_to_string("graphiql_debug_toolbar/base.html")
+            template = render_to_string("graphiql_strawberry_debug_toolbar/base.html")
             response.write(template)
             set_content_length(response)
 

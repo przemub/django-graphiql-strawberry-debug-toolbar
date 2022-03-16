@@ -1,6 +1,6 @@
 INSTALLED_APPS = [
     "debug_toolbar",
-    "graphiql_debug_toolbar",
+    "graphiql_strawberry_debug_toolbar",
 ]
 
 DATABASES = {

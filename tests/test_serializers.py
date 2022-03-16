@@ -2,7 +2,7 @@ import json
 
 from django.test import testcases
 
-from graphiql_debug_toolbar import serializers
+from graphiql_strawberry_debug_toolbar import serializers
 
 
 class SerializersTests(testcases.TestCase):

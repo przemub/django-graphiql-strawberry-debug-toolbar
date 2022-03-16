@@ -4,9 +4,9 @@ from unittest.mock import Mock, patch
 from django.http import HttpResponse, JsonResponse
 from django.test import RequestFactory, testcases
 
-from graphene_django.views import GraphQLView
+from strawberry.django.views import GraphQLView
 
-from graphiql_debug_toolbar.middleware import DebugToolbarMiddleware
+from graphiql_strawberry_debug_toolbar.middleware import DebugToolbarMiddleware
 
 
 class DebugToolbarMiddlewareTests(testcases.TestCase):

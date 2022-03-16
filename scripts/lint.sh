@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export SOURCE_FILES="graphiql_debug_toolbar tests"
+export SOURCE_FILES="graphiql_strawberry_debug_toolbar tests"
 
 set -e
 set -x

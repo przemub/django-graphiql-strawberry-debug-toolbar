@@ -1,4 +1,4 @@
-# Django GraphiQL Debug Toolbar
+# Django GraphiQL Strawberry Debug Toolbar
 
 [![Tests](https://github.com/flavors/django-graphiql-debug-toolbar/actions/workflows/test-suite.yml/badge.svg)](https://github.com/flavors/django-graphiql-debug-toolbar/actions)
 [![Coverage](https://img.shields.io/codecov/c/github/flavors/django-graphiql-debug-toolbar?color=%2334D058)](https://codecov.io/gh/flavors/django-graphiql-debug-toolbar)
@@ -11,25 +11,26 @@
 
 ## Dependencies
 
-*   Python ≥ 3.6
-*   Django ≥ 2.2
+* Python ≥ 3.6
+* Django ≥ 2.2
+* Strawberry ≥ 0.15.1
 
 ## Installation
 
-Install last stable version from Pypi.
+Install the last stable version from PyPI.
 
 ```sh
-pip install django-graphiql-debug-toolbar
+pip install django-graphiql-strawberry-debug-toolbar
 ````
 
 See the [documentation](https://django-debug-toolbar.readthedocs.io/en/stable/installation.html) for further guidance on setting *Django Debug Toolbar*.
 
-Add `graphiql_debug_toolbar` to your *INSTALLED_APPS* settings:
+Add `graphiql_strawberry_debug_toolbar` to your *INSTALLED_APPS* settings:
 
 ```py
 INSTALLED_APPS = [
     'debug_toolbar',
-    'graphiql_debug_toolbar',
+    'graphiql_strawberry_debug_toolbar',
 ]
 ```
 
@@ -38,8 +39,9 @@ INSTALLED_APPS = [
 ```py
 MIDDLEWARE = [
     # 'debug_toolbar.middleware.DebugToolbarMiddleware',
-    'graphiql_debug_toolbar.middleware.DebugToolbarMiddleware',
+    'graphiql_strawberry_debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 ```
 
-Credits to [@jazzband](https://jazzband.co) / [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar).
+Credits to [@jazzband](https://jazzband.co) / [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar)
+ and [@mongkok](https://github.com/mongkok) the author of [the orignal tool](https://github.com/flavors/django-graphiql-debug-toolbar) for graphene.
