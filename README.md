@@ -1,11 +1,9 @@
 # Django GraphiQL Strawberry Debug Toolbar
 
-[![Tests](https://github.com/flavors/django-graphiql-debug-toolbar/actions/workflows/test-suite.yml/badge.svg)](https://github.com/flavors/django-graphiql-debug-toolbar/actions)
-[![Coverage](https://img.shields.io/codecov/c/github/flavors/django-graphiql-debug-toolbar?color=%2334D058)](https://codecov.io/gh/flavors/django-graphiql-debug-toolbar)
-[![Codacy](https://app.codacy.com/project/badge/Grade/354f70cdefda40938c397d8651a2a06c)](https://www.codacy.com/gh/flavors/django-graphiql-debug-toolbar/dashboard)
-[![Package version](https://img.shields.io/pypi/v/django-graphiql-debug-toolbar.svg)](https://pypi.python.org/pypi/django-graphiql-debug-toolbar)
+[![Tests](https://github.com/przemub/django-graphiql-strawberry-debug-toolbar/actions/workflows/test-suite.yml/badge.svg)](https://github.com/flavprzemub/django-graphiql-strawberry-debug-toolbar/actions)
+[![Package version](https://img.shields.io/pypi/v/django-graphiql-strawberry-debug-toolbar.svg)](https://pypi.python.org/pypi/django-graphiql-strawberry-debug-toolbar)
 
-[Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar) for [GraphiQL](https://github.com/graphql/graphiql) IDE.
+[Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar) for [GraphiQL](https://github.com/graphql/graphiql) IDE and [https://strawberry.rocks/](Strawberry) GraphQL server.
 
 ![Graphiql Debug Toolbar](https://user-images.githubusercontent.com/5514990/36340937-1937ee68-1419-11e8-8477-40622e98c312.gif)
 
@@ -44,4 +42,5 @@ MIDDLEWARE = [
 ```
 
 Credits to [@jazzband](https://jazzband.co) / [django-debug-toolbar](https://github.com/jazzband/django-debug-toolbar)
- and [@mongkok](https://github.com/mongkok) the author of [the orignal tool](https://github.com/flavors/django-graphiql-debug-toolbar) for graphene.
+ and [@mongkok](https://github.com/mongkok), the author of [the orignal tool](https://github.com/flavors/django-graphiql-debug-toolbar) for graphene.
+

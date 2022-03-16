@@ -3,7 +3,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "django-strawberry-graphiql-debug-toolbar"
+name = "django-graphiql-strawberry-debug-toolbar"
 version = "0.2.0"
 description = "Django Debug Toolbar for GraphiQL IDE in Strawberry."
 license = "MIT"
