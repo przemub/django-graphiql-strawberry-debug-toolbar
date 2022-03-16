@@ -9,7 +9,7 @@
 
 ## Dependencies
 
-* Python ≥ 3.6
+* Python ≥ 3.7
 * Django ≥ 2.2
 * Strawberry ≥ 0.15.1
 
