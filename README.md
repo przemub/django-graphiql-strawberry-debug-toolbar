@@ -3,7 +3,7 @@
 [![Tests](https://github.com/przemub/django-graphiql-strawberry-debug-toolbar/actions/workflows/test-suite.yml/badge.svg)](https://github.com/flavprzemub/django-graphiql-strawberry-debug-toolbar/actions)
 [![Package version](https://img.shields.io/pypi/v/django-graphiql-strawberry-debug-toolbar.svg)](https://pypi.python.org/pypi/django-graphiql-strawberry-debug-toolbar)
 
-[Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar) for [GraphiQL](https://github.com/graphql/graphiql) IDE and [https://strawberry.rocks/](Strawberry) GraphQL server.
+[Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar) for [GraphiQL](https://github.com/graphql/graphiql) IDE and [Strawberry](https://strawberry.rocks/) GraphQL server.
 
 ![Graphiql Debug Toolbar](https://user-images.githubusercontent.com/5514990/36340937-1937ee68-1419-11e8-8477-40622e98c312.gif)
 
