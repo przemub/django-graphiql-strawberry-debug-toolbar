@@ -54,7 +54,7 @@ class DebugToolbarMiddleware(BaseMiddleware):
         if (
             hasattr(view_func, "view_class")
             and issubclass(view_func.view_class, GraphQLView)
-            and view_func.view_initkwargs.get("graphiql")
+            and view_func.view_initkwargs.get("graphiql", True)
         ):
             request._graphiql = True
 
